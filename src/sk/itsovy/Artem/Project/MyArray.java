@@ -204,7 +204,7 @@ public class MyArray implements ArrayMethods {
         } else {
             int[] sArr = new int[size + 1];
             int j = 0;
-            for (int i = 0; i < size + 1; i++){
+            for (int i = 0; i < sArr.length; i++){
                 if (i == position) {
                     sArr[i] = newValue;
 
