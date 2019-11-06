@@ -13,6 +13,6 @@ public class Main {
         int[] stock = MyArray.minmax(4, 8, 10);
         //System.out.println("The Maximum is: " +stock[0]+ " and the Minimum is:  " +stock[1]);
         //MyArray.minmax(4,8,3);
-        MyArray.test6();
+       // MyArray.test6();
     }
 }

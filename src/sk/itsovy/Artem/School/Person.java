@@ -8,7 +8,7 @@ public class Person {
     public Person(String name, int age){
         this.age = age;
         this.name = name;
-        System.out.println("I'm the constructor in Person");
+        //System.out.println("I'm the constructor in Person");
     }
 
     public void setAge(int age) {

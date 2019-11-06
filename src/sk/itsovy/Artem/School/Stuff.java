@@ -6,7 +6,7 @@ public class Stuff extends Person{
     public Stuff(String name, int age, int position){
         super(name, age);
         this.position = position;
-        System.out.println("I'm the constructor in Stuff");
+        //System.out.println("I'm the constructor in Stuff");
     }
 
     public void setPosition(int position) {
