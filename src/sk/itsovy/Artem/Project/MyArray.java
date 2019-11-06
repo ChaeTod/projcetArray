@@ -202,7 +202,20 @@ public class MyArray implements ArrayMethods {
         if (position > size || position < 0) {
             error("Warning! Position can't be smaller then 0 and bigger then the size of an array! Got: " + position);
         } else {
-            arr[position - 1] = newValue;
+            int[] sArr = new int[size + 1];
+            int j = 0;
+            for (int i = 0; i < size + 1; i++){
+                if (i == position) {
+                    sArr[i] = newValue;
+
+                }
+                else{
+                    sArr[i] = arr[j];
+                    j++;
+                }
+            }
+            for (int value : sArr)
+                System.out.print(value+ " ");
         }
     }
 

@@ -32,7 +32,6 @@ public class Main {
 
         System.out.println("Input the new the value and the position where it will be: ");
         arr.addItem(arr.inputNeedValue(), arr.inputNeedValue());
-        arr.showArr();
 
         System.out.println("The count of the even numbers: " +arr.countOfEvenValues());
         System.out.println("Input the number to find if it appear in array: ");
