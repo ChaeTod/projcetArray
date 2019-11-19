@@ -6,6 +6,7 @@ public class Main {
         arr.generateValues(10, 90);
 
         arr.showArr();
+        /*
         System.out.println("Minimum is: " + arr.min());
         System.out.println("Maximum is: " + arr.max());
         System.out.println("The second minimum: " + arr.min2());
@@ -40,6 +41,7 @@ public class Main {
         int[] rez = arr.copy(); // Testing of copy
         for (int value : rez)
             System.out.print(value+ " ");
+ */
 
 
 // Fast tests
@@ -61,6 +63,13 @@ public class Main {
         System.out.println("The even numbers in second array are: " + arr3.countOfEvenValues());
 
  */
+        System.out.println("The reserved field: " );
+        arr.ReverseArr();
+        arr.showArr();
+        System.out.println("The changed field: ");
+        arr.randomize();
+        arr.showArr();
+        System.out.println("The sum of the two numbers are: " +arr.longNumSum("00003322344560000000", "1111000000005621111"));
     }
 
 }
